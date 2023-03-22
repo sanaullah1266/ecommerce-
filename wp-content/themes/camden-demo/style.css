@@ -1,0 +1,96 @@
+/*
+Theme Name:    	Camden Demo
+Description:    Camden live preview child theme
+Template:       camden
+Author:			WebsiteSmash
+Version:        1.0
+*/
+
+.camden-demo {
+    background: #000000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    color: #666666;
+    left: -200px;
+    padding: 15px;
+    position: fixed;
+    top: 20%;
+    transition: left 0.25s ease;
+    width: 200px;
+    z-index: 999;
+}
+
+.camden-demo-open .camden-demo {
+    left: 0;
+}
+
+.camden-demo .toggle {
+    background: #FFC926;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 38px;
+    top: 0;
+    right: -38px;
+    position: absolute;
+    transition: background-color 0.5s ease;
+    width: 38px;
+}
+
+.camden-demo .toggle:hover {
+    background: #cc9900;
+}
+
+.camden-demo .toggle-icon {
+    color: #000000;
+    display: block;
+    font-size: 24px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transition: transform 0.5s ease;
+    transform: translate(-50%, -50%) rotate(0);
+    transform-origin: 50% 50%;
+}
+
+.camden-demo-open .camden-demo .toggle-icon {
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+
+.camden-demo .option-title {
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px 0 20px 0;
+}
+
+.camden-demo .color {
+    border: 2px solid #111111;
+    cursor: pointer;
+    display: inline-block;
+    height: 38px;
+    margin: 0;
+    transition: border-color 0.25s ease;
+    width: 38px;
+}
+
+.camden-demo .color:hover {
+    border-color: #ffffff;
+}
+
+.color.dark {
+    background: #222;
+}
+
+.color.light {
+    background: #ffffff;
+}
+
+.color.active {
+    border-color: #ffdd00;
+}
+
+@media only screen and (max-width: 782px) {
+    .camden-demo {
+        display: none;
+    }
+}

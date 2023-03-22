@@ -1,0 +1,183 @@
+/**
+ * Camden Light Colour Scheme
+ **/
+
+.navbar-primary,
+.navbar-primary .wp-custom-menu>.menu-item>.sub-menu,
+.navbar-primary .wp-custom-menu>.menu-item.stacked .sub-menu,
+.siteHeader-cart-inner {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* BACKGROUND ---------- */
+
+.siteFooter .widget-title::after {
+    background-color: #000000;
+}
+
+.menuToggle-line {
+    background-color: #111111;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #999999;
+}
+
+body,
+.siteFooter-scroll>span,
+.featuredContent,
+.woocommerce .widget_price_filter .ui-slider {
+    background-color: #e3e3e3;
+}
+
+.siteContent {
+    background-color: #f3f3f3;
+}
+
+.navbar-primary,
+.navbar-primary .wp-custom-menu>.menu-item>.sub-menu,
+.navbar-primary .wp-custom-menu>.menu-item.stacked .sub-menu,
+.searchOverlay,
+.siteHeader .siteHeader-cart-inner,
+.productListHeader {
+    background-color: #ffffff;
+}
+
+/* BORDER-COLOR ---------- */
+
+.navbar-primary .wp-custom-menu>.menu-item,
+.navbar-primary .wp-custom-menu>.menu-item:last-child,
+.siteHeader-cart ul.cart_list li,
+.siteHeader-cart ul.product_list_widget li,
+.siteContent-sidebar .widget_recent_entries li,
+.siteContent-sidebar .recentcomments,
+.productListHeader select,
+.siteContent-sidebar .select2-container--default .select2-selection--single,
+.siteContent-sidebar input:not([type="submit"]),
+.siteContent-sidebar select,
+.siteContent-sidebar textarea,
+.siteContent-sidebar hr,
+.siteContent-sidebar .widget table,
+.siteContent-sidebar .widget td,
+.siteContent-sidebar .widget table>tbody:not(:first-child)>tr:first-child td,
+.woocommerce .siteContent-sidebar .widget_shopping_cart .cart_list li,
+.siteContent-sidebar .woocommerce.widget_shopping_cart .cart_list li {
+    border-color: #dddddd;
+}
+
+.siteContent-sidebar .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #ddd transparent transparent transparent;
+}
+
+.siteContent-sidebar .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #ddd transparent;
+}
+
+.siteFooter-footer,
+.siteFooter .widget_recent_entries li,
+.siteFooter .recentcomments,
+.siteFooter input:not([type="submit"]),
+.siteFooter select,
+.siteFooter .select2-container--default .select2-selection--single,
+.siteFooter textarea,
+.siteFooter h3,
+.siteFooter .widget table,
+.siteFooter .widget td,
+.siteFooter .widget table>tbody:not(:first-child)>tr:first-child td,
+.woocommerce .siteFooter .widget_shopping_cart .cart_list li,
+.siteFooter .woocommerce.widget_shopping_cart .cart_list li {
+    border-color: #c3c3c3;
+}
+
+.siteFooter .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #c3c3c3 transparent transparent transparent;
+}
+
+.siteFooter .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #c3c3c3 transparent;
+}
+
+.siteContent-sidebar .tagcloud a,
+.siteFooter .tagcloud a {
+    border-color: #666666;
+}
+
+/* COLOR ---------- */
+
+.siteFooter .logo-text,
+.siteContent-sidebar .widget-title,
+.siteFooter .widget-title,
+.siteContent-sidebar th:not(:only-of-type),
+.siteFooter th:not(:only-of-type) {
+    color: #000000;
+}
+
+.navbar-brand .logo-text,
+.navbar-primary .wp-custom-menu>.menu-item>a,
+.navbar-primary .wp-custom-menu>.menu-item>.sub-menu>.menu-item>a,
+.navbar-primary .wp-custom-menu .menu-item.stacked .sub-menu .sub-menu a,
+.navbar-button,
+.searchOverlay-button:hover,
+.searchOverlay .search-submit:hover,
+.siteHeader-cart li>a,
+.siteHeader-cart .remove {
+    color: #111111;
+}
+
+.siteHeader .siteHeader-cart,
+.siteHeader-cart .quantity,
+.siteHeader-cart .quantity,
+.siteHeader-cart .woocommerce-mini-cart__empty-message {
+    color: #333333;
+}
+
+.siteContent-sidebar a,
+.siteFooter a,
+.siteFooter-scroll>span,
+.woocommerce-ordering .orderby {
+    color: #666666;
+}
+
+.searchOverlay,
+.searchOverlay-button,
+.searchOverlay .search-field,
+.searchOverlay .search-submit,
+.siteContent-sidebar,
+.siteFooter,
+.woocommerce-result-count,
+.siteContent-sidebar a:hover,
+.siteFooter a:hover,
+.siteFooter-scroll>span:hover,
+.siteFooter .logo-text:hover {
+    color: #999999;
+}
+
+.searchOverlay .search-field:-webkit-autofill {
+    -webkit-text-fill-color: #999999;
+    -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
+}
+
+.siteContent-sidebar input:-webkit-autofill,
+.siteContent-sidebar .search-field:-webkit-autofill {
+    -webkit-text-fill-color: #999999;
+    -webkit-box-shadow: 0 0 0 1000px #f3f3f3 inset;
+}
+
+.siteContent-footer input:-webkit-autofill,
+.siteContent-footer .search-field:-webkit-autofill {
+    -webkit-text-fill-color: #999999;
+    -webkit-box-shadow: 0 0 0 1000px #e3e3e3 inset;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-primary .wp-custom-menu>.menu-item>.sub-menu {
+        box-shadow: none;
+    }
+    .navbar-primary .wp-custom-menu>.menu-item:hover>a {
+        color: #111111;
+    }
+    .navbar-primary .wp-custom-menu>.menu-item>a:hover {
+        color: #666666;
+    }
+}
